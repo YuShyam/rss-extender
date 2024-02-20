@@ -41,8 +41,8 @@ jobs:
       - name: Commit files
         continue-on-error: True
         run: |
-          git config --local user.email "dr_hamilton@foxmail.com"
-          git config --local user.name "Ravello-H"
+          git config --local user.email "shyam.phone@gmail.com"
+          git config --local user.name "YuShyam"
           git add -A
           git commit -m "`date '+%Y-%m-%d %H:%M:%S'`"
           git status
