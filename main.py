@@ -26,7 +26,7 @@ def alter(file,old_str,new_str):
 
 # 初始化 
 print('[进程0/6]正在初始化...')
-rsslink = 'https://fetchrss.com/rss/62e7476cbc64503f4d1c8c3262e748042496e12e1401c6e3.xml' # 此处为原始rss
+rsslink = 'https://fetchrss.com/rss/652e3b1e2509bc48e02b899265cdc5810b3ad4105a29ddf3.xml' # 此处为原始rss
 if 'originRss.xml' in os.listdir('.'):
     os.remove('originRss.xml')
     filename = download(rsslink,'./originRss.xml')
